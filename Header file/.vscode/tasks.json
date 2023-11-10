@@ -10,8 +10,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                //"${fileDirname}\\myheader.c",
-                "${fileDirname}\\stack.c"
+                "${fileDirname}\\myheader.c"
             ],
             "options": {
                 "cwd": "${fileDirname}"
