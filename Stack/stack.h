@@ -2,7 +2,7 @@
 #define STACK_H
 
 void sPush(int value);
-void sPop(void);
+int sPop(void);
 void printStack();
 
 #endif
